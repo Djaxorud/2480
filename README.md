@@ -10,10 +10,12 @@ int main() {
    scanf("%d %d %d", &a, &b, &c);
    
    if ((a == b) && (b == c)) {
+   
       total = 10000 + (a * 1000);
       printf("%d", total);
    }
    else if ((a == b) || (a==c)) {
+   
       total = 1000 + (a * 100);
       printf("%d", total);
    }
