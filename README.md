@@ -19,20 +19,24 @@ int main() {
       total = 1000 + (a * 100);
       printf("%d", total);
    }
+   
    else if ((b == c)) {
       total = 1000 +(b * 100);
       printf("%d", total);
    }
    else {
+   
       if (a > b && a > c) {
          max = a;
       }
+      
       if (b > a && b > c) {
          max = b;
       }
       if (c > a && c > b) {
          max = c;
       }
+      
       total = max * 100;
       printf("%d", total);
    }
