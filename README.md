@@ -21,6 +21,7 @@ int main() {
    }
    
    else if ((b == c)) {
+   
       total = 1000 +(b * 100);
       printf("%d", total);
    }
